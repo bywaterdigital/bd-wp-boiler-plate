@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.vc_element-icon.icon-theme {
+    background-image: url(../../assets/images/vc_icon.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+#adminmenu div.separator{
+	border-top:#6CC 2px solid;
+	margin-top:12px;
+}
+
+
+body.user-edit-php h2,
+body.user-edit-php h3{
+	font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+	background-color:#fff;
+	border: 1px solid #eee;
+	margin-bottom:0px;
+	margin-top:18px;
+}
+body.user-edit-php form > table.form-table,
+body.user-edit-php .wpuf-text{
+    padding: 8px 12px;
+	background-color:#fff;
+	width:100%;
+	box-sizing:border-box;
+	display:block;
+	margin-top:0px;
+	margin-bottom:18px;
+}
+
+
+
+/* plugin update notices */
+tr.plugin-update-tr[data-slug=admin-columns-pro],
+tr.plugin-update-tr[data-slug=admin-menu-editor-pro],
+tr.plugin-update-tr[data-slug=advanced-custom-fields-pro]{
+	display:none !important;
+}
+
+
+img[title="Unlicensed Copy"]{
+	display:none !important;
+}
+img[title=Unlicensed Copy]{
+	display:none !important;
+}
+body[class^="forms_page"] div a img{
+	display:none !important;
+} 
+div[class*="forms_page"] div a img{
+	display:none !important;
+}
+
+
+
+
+
+
+
+
+

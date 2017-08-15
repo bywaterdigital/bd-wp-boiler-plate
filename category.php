@@ -1,0 +1,1 @@
+<?php include('_tpl/_tpl_category.php'); ?>
